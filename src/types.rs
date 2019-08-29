@@ -338,6 +338,8 @@ pub enum FlowType {
     /// Windows Firewall, but is more comfortable otherwise. The integer describes which port to
     /// bind to (default: 8080)
     InstalledRedirect(u16),
+    // TODO: add doc
+    Server(String)
 }
 
 /// Represents either 'installed' or 'web' applications in a json secrets file.
